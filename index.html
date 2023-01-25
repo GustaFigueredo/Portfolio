@@ -7,7 +7,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="swiper-bundle.min.css">
     <title>Gustavo Henrique</title>
 </head>
 <body>
@@ -71,27 +73,89 @@
     </aside>
 
     <main>
-        <div class="bar1">
-
+        <div class="myProjects">
+            <h1>My projects</h1>
+            <a href="https://github.com/GustaFigueredo?tab=repositories" target="_blank">All projects</a>
         </div>
 
-        <div class="project1">
-
+        <div class="slide">
+            <div class="slide-container swiper">
+                <div class="slide-content">
+                    <div class="card-wrapper swiper-wrapper">
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+    
+                                <div class="card-image">
+                                    <img src="assets/habbits.png" alt="" class="card-img">
+                                </div>
+                            </div>
+    
+                            <div class="card-content">
+                                <h2 class="name">Habbit Tracker</h2>
+                                <p class="description">In this application, we can track daily habits. Application developed with HTML, CSS and JAVASCRIPT.</p>
+    
+                                <button class="button">View More</button>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+    
+                                <div class="card-image">
+                                    <img src="assets/habbits.png" alt="" class="card-img">
+                                </div>
+                            </div>
+    
+                            <div class="card-content">
+                                <h2 class="name">Habbit Tracker</h2>
+                                <p class="description">In this application, we can track daily habits. Application developed with HTML, CSS and JAVASCRIPT.</p>
+    
+                                <button class="button">View More</button>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+    
+                                <div class="card-image">
+                                    <img src="assets/habbits.png" alt="" class="card-img">
+                                </div>
+                            </div>
+    
+                            <div class="card-content">
+                                <h2 class="name">Habbit Tracker</h2>
+                                <p class="description">In this application, we can track daily habits. Application developed with HTML, CSS and JAVASCRIPT.</p>
+    
+                                <button class="button">View More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="swiper-button-next swiper-navBtn"></div>
+                <div class="swiper-button-prev swiper-navBtn"></div>
+                <div class="swiper-pagination"></div>
+            </div>
         </div>
         
-        <div class="project2">
-
+        <div class="postBar">
+            <h1>Recent post</h1>
         </div>
 
-        <div class="bar2">
-
-        </div>
-
-        <div class="post">
-
+        <div class="postContent">
+            <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7023330774858792960" height="201" width="920" frameborder="0" allowfullscreen="" scrolling="no" title="Publicação incorporada"></iframe>
         </div>
     </main>
 
     <footer>Copyright &#169 by Gustavo Figueredo</footer>
 </body>
+
+    <!-- Swiper JS -->
+      
+    <script src="swiper-bundle.min.js"></script>
+
+    <!-- JavaScript -->
+      
+    <script src="script.js"></script>
 </html>
