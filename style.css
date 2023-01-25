@@ -364,6 +364,10 @@ footer {
   .button:hover{
     background: #00FF00;
   }
+
+  .button, a {
+    text-decoration: none;
+  }
   
   .swiper-navBtn{
     color: #00FF00;
