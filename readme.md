@@ -13,7 +13,7 @@ Desenvolvida para que eu possa utilizar como uma forma de apresentar meu trabalh
 <br>
 
 <p align="center">
-  <img alt="portfolio" src=".github/port.png" width="100%">
+  <img alt="portfolio" src=".github/Port.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
